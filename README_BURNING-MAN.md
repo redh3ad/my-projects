@@ -1,1 +1,0 @@
-# BURNUNG-MAN project
