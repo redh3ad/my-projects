@@ -7,7 +7,7 @@ https://redh3ad.github.io/beauty/
 https://redh3ad.github.io/burnung-man/
 
 #online-zoo
-https://redh3ad.github.io/online-zoo/pages/landing/
+https://redh3ad.github.io/online-zoo/pages/landing/landing.html
 
 #virtual-piano
 https://redh3ad.github.io/virtual-piano/
