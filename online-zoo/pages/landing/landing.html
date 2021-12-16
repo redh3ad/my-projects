@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="landing.css">
+  <title>Online Zoo</title>
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <section class="header__content">
+        <a href="##"><img src="../../assets/images/logo-zoo.svg"
+           alt="online zoo logo"></a>
+        <nav class="header__content-nav">
+          <ul>
+            <li><a href="##">About</a></li>
+            <li><a href="../../pages/zoos/panda/panda.html">Zoos</a></li>
+            <li><a href="../../pages/map/map.html">Map</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+            <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp?node-id=0%3A1">Design</a></li>
+          </ul>
+        </nav>
+        <div class="header__switch-theme">
+          <label class="switch">
+            <input type="checkbox">
+            <span class="swither__round"></span>
+          </label>
+        </div>
+        <div class="header_menu-burger">
+          <div class="burger_center-line"></div>
+        </div>
+        <h1 style="display: none;">Online Zoo</h1>
+      </section>
+    </div>
+  </header>
+    
+  <main class="main">
+    <section class="fav_animal-wrapper">
+      <div class="wrapper">
+        <div class="main__fav_animal-content">
+          <h2>Watch your favorite animal online</h2>
+          <form action="../../pages/zoos/panda/panda.html" target="_blank">
+            <button class="button"><img src="../../assets/icons/watch-online.svg" alt="whatch online"><span>watch online</span></button>
+          </form>
+          <div class="main__socials">
+            <ul>
+              <li><a href="https://instagram.com" class="inst"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.75 0H6.25C2.79875 0 0 2.79875 0 6.25V13.75C0 17.2013 2.79875 20 6.25 20H13.75C17.2013 20 20 17.2013 20 13.75V6.25C20 2.79875 17.2013 0 13.75 0ZM18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125H6.25C3.8375 18.125 1.875 16.1625 1.875 13.75V6.25C1.875 3.8375 3.8375 1.875 6.25 1.875H13.75C16.1625 1.875 18.125 3.8375 18.125 6.25V13.75Z" fill="#FEFEFE"/>
+                <path d="M10 5C7.23875 5 5 7.23875 5 10C5 12.7613 7.23875 15 10 15C12.7613 15 15 12.7613 15 10C15 7.23875 12.7613 5 10 5ZM10 13.125C8.2775 13.125 6.875 11.7225 6.875 10C6.875 8.27625 8.2775 6.875 10 6.875C11.7225 6.875 13.125 8.27625 13.125 10C13.125 11.7225 11.7225 13.125 10 13.125Z" fill="#FEFEFE"/>
+                <path d="M15.3752 5.29148C15.7432 5.29148 16.0415 4.99319 16.0415 4.62523C16.0415 4.25727 15.7432 3.95898 15.3752 3.95898C15.0073 3.95898 14.709 4.25727 14.709 4.62523C14.709 4.99319 15.0073 5.29148 15.3752 5.29148Z" fill="#FEFEFE"/>
+                </svg>
+                </a>
+              </li>
+              <li><a href="https://twitter.com" class="inst"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 1.92375C19.2563 2.25 18.4637 2.46625 17.6375 2.57125C18.4875 2.06375 19.1363 1.26625 19.4412 0.305C18.6488 0.7775 17.7738 1.11125 16.8412 1.2975C16.0887 0.49625 15.0162 0 13.8462 0C11.5763 0 9.74875 1.8425 9.74875 4.10125C9.74875 4.42625 9.77625 4.73875 9.84375 5.03625C6.435 4.87 3.41875 3.23625 1.3925 0.7475C1.03875 1.36125 0.83125 2.06375 0.83125 2.82C0.83125 4.24 1.5625 5.49875 2.6525 6.2275C1.99375 6.215 1.3475 6.02375 0.8 5.7225C0.8 5.735 0.8 5.75125 0.8 5.7675C0.8 7.76 2.22125 9.415 4.085 9.79625C3.75125 9.8875 3.3875 9.93125 3.01 9.93125C2.7475 9.93125 2.4825 9.91625 2.23375 9.86125C2.765 11.485 4.2725 12.6788 6.065 12.7175C4.67 13.8088 2.89875 14.4662 0.98125 14.4662C0.645 14.4662 0.3225 14.4513 0 14.41C1.81625 15.5813 3.96875 16.25 6.29 16.25C13.835 16.25 17.96 10 17.96 4.5825C17.96 4.40125 17.9538 4.22625 17.945 4.0525C18.7588 3.475 19.4425 2.75375 20 1.92375Z" fill="#FEFEFE"/>
+                </svg></a>
+              </li>
+              <li><a href="https://youtube.com" class="inst"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.15 1.575C18.6075 0.61 18.0188 0.4325 16.82 0.365C15.6225 0.28375 12.6112 0.25 10.0025 0.25C7.38875 0.25 4.37625 0.28375 3.18 0.36375C1.98375 0.4325 1.39375 0.60875 0.84625 1.575C0.2875 2.53875 0 4.19875 0 7.12125C0 7.12375 0 7.125 0 7.125C0 7.1275 0 7.12875 0 7.12875V7.13125C0 10.0413 0.2875 11.7137 0.84625 12.6675C1.39375 13.6325 1.9825 13.8075 3.17875 13.8888C4.37625 13.9588 7.38875 14 10.0025 14C12.6112 14 15.6225 13.9587 16.8212 13.89C18.02 13.8087 18.6087 13.6338 19.1513 12.6688C19.715 11.715 20 10.0425 20 7.1325C20 7.1325 20 7.12875 20 7.12625C20 7.12625 20 7.12375 20 7.1225C20 4.19875 19.715 2.53875 19.15 1.575ZM7.5 10.875V3.375L13.75 7.125L7.5 10.875Z" fill="#FEFEFE"/>
+                </svg>
+                </a>
+              </li>
+              <li><a href="https://vk.com" class="inst"><svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.8217 10.1784C19.768 10.0883 19.4355 9.36579 17.8353 7.88068C16.1602 6.32557 16.3852 6.57809 18.4029 3.88914C19.6317 2.25152 20.123 1.25145 19.9692 0.823916C19.823 0.416387 18.9192 0.523894 18.9192 0.523894L15.9139 0.541396C15.9139 0.541396 15.6914 0.511393 15.5252 0.610151C15.3639 0.707658 15.2601 0.932674 15.2601 0.932674C15.2601 0.932674 14.7839 2.20027 14.1488 3.27785C12.81 5.55176 12.2737 5.67177 12.0549 5.53051C11.5461 5.20174 11.6736 4.20792 11.6736 3.50286C11.6736 1.29895 12.0074 0.380134 11.0223 0.142616C10.6948 0.0638606 10.4548 0.0113567 9.61848 0.00260608C8.54591 -0.00864474 7.63709 0.00635635 7.1233 0.257625C6.78078 0.425137 6.51701 0.798915 6.67827 0.820166C6.87703 0.846418 7.32707 0.941425 7.56583 1.26645C7.87461 1.68523 7.86336 2.6278 7.86336 2.6278C7.86336 2.6278 8.04087 5.22174 7.44958 5.54426C7.0433 5.76553 6.487 5.31425 5.29317 3.25034C4.68187 2.19402 4.21934 1.02518 4.21934 1.02518C4.21934 1.02518 4.13058 0.807665 3.97182 0.691407C3.77931 0.550146 3.50929 0.505143 3.50929 0.505143L0.651577 0.522644C0.651577 0.522644 0.222795 0.535146 0.0652839 0.721409C-0.0747264 0.887671 0.054033 1.2302 0.054033 1.2302C0.054033 1.2302 2.2917 6.46433 4.82438 9.10327C7.1483 11.5222 9.786 11.3634 9.786 11.3634H10.9811C10.9811 11.3634 11.3424 11.3234 11.5261 11.1247C11.6961 10.9422 11.6899 10.5996 11.6899 10.5996C11.6899 10.5996 11.6661 8.99577 12.4112 8.7595C13.145 8.52698 14.0876 10.3096 15.0864 10.9959C15.8414 11.5147 16.4152 11.4009 16.4152 11.4009L19.0867 11.3634C19.0867 11.3634 20.4843 11.2772 19.8217 10.1784Z" fill="#FEFEFE"/>
+                </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="main__fav-slider">
+            <div class="slider_line">
+              <div class="line"></div>
+              <div class="border">
+                <div class="circule">
+                </div>
+              </div>
+            </div>
+            <div class="slider-slides">
+              <div class="slide_1 fav-slide">
+                <img src="../../assets/images/PIZ-eagle.png" alt="Eagle" width="140" height="203">
+              </div>
+              <div class="slide_2 fav-slide">
+                <img src="../../assets/images/PIZ-panda.png" alt="Eagle" width="245" height="352" class="slide2_img">
+                <div class="slide_content">
+                  <p>Panda’s name is Bei Bei. He 
+                  is 2 years old. Bei Bei is from China. He loves bamboos.</p>
+                  <div class="fav_watch_donate">
+                    <a href="../../pages/zoos/panda/panda.html"><img src="../../assets/images/PIZ-watch-online.svg" alt="Watch Online"></a>
+                    <a href="#"><img src="../../assets/images/PIZ-donate.svg" alt="Donate"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="slide_3 fav-slide"><img src="../../assets/images/FAV-slider-gorilla.png" alt="Eagle" width="140" height="203">
+              </div>
+              <div class="slide_4 fav-slide"><img src="../../assets/images/FAV-slider-croc.png" alt="Eagle" width="140" height="203">
+              </div>
+              <div class="slide_5 fav-slide"><img src="../../assets/images/FAV-slider-fox.png" alt="Eagle" width="140" height="203">
+              </div>
+            </div>
+            <div class="slider_input">
+              <p>02/</p>
+              <input type="range" min="01" max="08" value="02" class="fav-slider-input">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__how-it-work">
+      <div class="wrapper">
+        <section class="main__hiw_content">
+          <h3>How it works?</h3>
+          <p class="hiw_text">As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects, including providing veterinary support and raising much-needed emergency funds. Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives. Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</p>
+          <div class="main__hiv-slider">
+            <img src="../../assets/images/how-it-works.png" alt="how it works">
+            <p>01/</p>
+            <input type="range" min="01" max="04" value="01" class="hiv-slider">
+          </div>
+          <form action="../../pages/zoos/panda/panda.html" target="_blank">
+            <button class="button"><img src="../../assets/icons/watch-online.svg" alt="whatch online"><span>watch online</span></button>
+          </form>
+        </section>
+      </div>
+    </section>
+    <section class="main__inspring">
+      <div class="wrapper">
+        <div class="main__inspring-content">
+          <div class="main__inspires inspring__block">
+            <img src="../../assets/images/inspires_us.svg" 
+                 alt="What inspires us?"
+                 width="80"
+                 height="80">
+            <h6>What inspires us?</h6>
+            <p>As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects.</p>
+          </div>
+          <div class="main__mission inspring__block">
+            <img src="../../assets/images/our_mission.svg" 
+                 alt="Our mission"
+                 width="80"
+                 height="80">
+            <h6>Our mission</h6>
+            <p>Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives. </p>
+          </div>
+          <div class="main__believe inspring__block">
+            <img src="../../assets/images/believe_in.svg" 
+                 alt="What we believe in?"
+                 width="80"
+                 height="80">
+            <h6>What we believe in?</h6>
+            <p>Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main__pets_in_zoo">
+      <div class="wrapper">
+        <div class="main__pets_in_zoo-content">
+          <h2>Pets in Zoo</h2>
+          <div class="main__pets_in_zoo-slider">
+            <svg class="piz_slider-left_arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.6663 16.1706L20.0167 29.5207C20.3255 29.8298 20.7376 30 21.1772 30C21.6167 30 22.0289 29.8298 22.3376 29.5207L23.3208 28.5378C23.9605 27.8973 23.9605 26.8564 23.3208 26.2169L12.1102 15.0062L23.3332 3.78314C23.642 3.47412 23.8125 3.06217 23.8125 2.6229C23.8125 2.18315 23.642 1.7712 23.3332 1.46194L22.3501 0.479263C22.0411 0.17024 21.6291 0 21.1896 0C20.7501 0 20.3379 0.17024 20.0291 0.479263L6.6663 13.8416C6.35679 14.1516 6.18679 14.5655 6.18777 15.0055C6.18679 15.4472 6.35679 15.8608 6.6663 16.1706Z" fill="#828282"/>
+            </svg>
+              <div class="pets_in_zoo-slider-cards">
+                <div class="piz_card1 piz_cards">
+                  <div class="piz_cards_content">
+                    <span>Panda’s name is Bei Bei. He 
+                    is 2 years old. Bei Bei is from China. He loves bamboos.</span>
+                    <div class="watch_donate">
+                      <a href="../../pages/zoos/panda/panda.html"><img src="../../assets/images/PIZ-watch-online.svg" alt="Watch Online"></a>
+                      <a href="#"><img src="../../assets/images/PIZ-donate.svg" alt="Donate"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="piz_card2 piz_cards">
+                  <div class="piz_cards_content">
+                    <span>Eagle is the common name for many large birds of prey of the family Accipitridae. Eagles belong to several groups of genera, some of which are closely related.</span>
+                    <div class="watch_donate">
+                      <a href="../../pages/zoos/eagle/eagle.html"><img src="../../assets/images/PIZ-watch-online.svg" alt="Watch Online"></a>
+                      <a href="#"><img src="../../assets/images/PIZ-donate.svg" alt="Donate"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="piz_card3 piz_cards">
+                  <div class="piz_cards_content">
+                    <span>The largest of the great apes, gorillas are stocky animals with broad chests and shoulders, large, human-like hands, and small eyes set into hairless faces.</span>
+                    <div class="watch_donate">
+                      <a href="../../pages/zoos/gorilla/gorilla.html"><img src="../../assets/images/PIZ-watch-online.svg" alt="Watch Online"></a>
+                      <a href="#"><img src="../../assets/images/PIZ-donate.svg" alt="Donate"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="piz_card4 piz_cards">
+                  <div class="piz_cards_content">
+                    <span>Despite their prehistoric look, crocodiles are among the more biologically complex reptiles.</span>
+                    <div class="watch_donate">
+                      <a href="../../pages/zoos/alligator/alligator.html"><img src="../../assets/images/PIZ-watch-online.svg" alt="Watch Online"></a>
+                      <a href="#"><img src="../../assets/images/PIZ-donate.svg" alt="Donate"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <svg class="piz_slider-right_arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.3337 13.8294L9.98332 0.479264C9.67454 0.170243 9.26235 0 8.82284 0C8.38334 0 7.97114 0.170243 7.66237 0.479264L6.6792 1.46218C6.03945 2.10267 6.03945 3.14363 6.6792 3.78314L17.8898 14.9938L6.66676 26.2169C6.35799 26.5259 6.1875 26.9378 6.1875 27.3771C6.1875 27.8168 6.35799 28.2288 6.66676 28.5381L7.64993 29.5207C7.95895 29.8298 8.3709 30 8.81041 30C9.24991 30 9.66211 29.8298 9.97088 29.5207L23.3337 16.1584C23.6432 15.8484 23.8132 15.4345 23.8122 14.9945C23.8132 14.5528 23.6432 14.1392 23.3337 13.8294Z" fill="#828282"/>
+              </svg>
+          </div>
+          <p>01/</p>
+          <input type="range" min="01" max="08" value="01" class="piz-slider">
+          <form action="../../pages/map/map.html" target="_blank">
+            <button class="button"><span>Choose your favorite</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="main__pay_and_feed">
+      <div class="wrapper">
+        <div class="main__pay_and_feed-content">
+          <h2>Pay and feed</h2>
+          <p>The opportunity to easily and naturally (but as often as possible) donate to the needs of animals that you like.</p>
+          <div class="paf__stages_of_payment">
+            <img src="../../assets/images/PAF-VISAcard.svg" alt="You pay with a 
+            VISA card">
+            <img src="../../assets/images/PAF-arrow.svg" alt="right arrow one">
+            <img src="../../assets/images/paf1200arrow.png" alt="right arrow one 1200">
+            <img src="../../assets/images/PAF-payments.svg" alt="Payment goes 
+            to the Zoo">
+            <img src="../../assets/images/PAF-arrow.svg" alt="right arrow two">
+            <img src="../../assets/images/paf1200arrow.png" alt="right arrow two 1200">
+            <img src="../../assets/images/PAF-pandagets.svg" alt="Panda gets 
+            the bamboo">
+          </div>
+          <form action="#" target="_blank">
+            <button class="button"><span>Donate</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="main__testimonials">
+      <div class="wrapper">
+        <div class="main__testimonials-content">
+          <h2>Testimonials</h2>
+          <div class="main__testimonials-slider">
+            <svg class="tml_slider-left_arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.6663 16.1706L20.0167 29.5207C20.3255 29.8298 20.7376 30 21.1772 30C21.6167 30 22.0289 29.8298 22.3376 29.5207L23.3208 28.5378C23.9605 27.8973 23.9605 26.8564 23.3208 26.2169L12.1102 15.0062L23.3332 3.78314C23.642 3.47412 23.8125 3.06217 23.8125 2.6229C23.8125 2.18315 23.642 1.7712 23.3332 1.46194L22.3501 0.479263C22.0411 0.17024 21.6291 0 21.1896 0C20.7501 0 20.3379 0.17024 20.0291 0.479263L6.6663 13.8416C6.35679 14.1516 6.18679 14.5655 6.18777 15.0055C6.18679 15.4472 6.35679 15.8608 6.6663 16.1706Z" fill="#828282"/>
+            </svg>
+            <div class="users_testimonials">
+              <div class="user_testimonial">
+                <div class="img_cover">
+                  <img src="../../assets/icons/TMN-user1.svg" alt="user foto">
+                </div>
+                <h6>Nastya Sidorova</h6>
+                <span>As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</span>
+              </div>
+              <div class="user_testimonial">
+                <div class="img_cover">
+                  <img src="../../assets/icons/TMN-user2.svg" alt="user foto">
+                </div>
+                <h6>Vlad Kim</h6>
+                <span>As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat.</span>
+              </div>
+            </div>
+            <svg class="tml_slider-right_arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.3337 13.8294L9.98332 0.479264C9.67454 0.170243 9.26235 0 8.82284 0C8.38334 0 7.97114 0.170243 7.66237 0.479264L6.6792 1.46218C6.03945 2.10267 6.03945 3.14363 6.6792 3.78314L17.8898 14.9938L6.66676 26.2169C6.35799 26.5259 6.1875 26.9378 6.1875 27.3771C6.1875 27.8168 6.35799 28.2288 6.66676 28.5381L7.64993 29.5207C7.95895 29.8298 8.3709 30 8.81041 30C9.24991 30 9.66211 29.8298 9.97088 29.5207L23.3337 16.1584C23.6432 15.8484 23.8132 15.4345 23.8122 14.9945C23.8132 14.5528 23.6432 14.1392 23.3337 13.8294Z" fill="#828282"/>
+            </svg>
+          </div>
+          <p>01/</p>
+          <input type="range" min="01" max="08" value="01" class="tml-slider">
+          <form action="#" target="_blank">
+            <button class="button"><span>Leave feedback</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="main__map" id="main__map">
+      <div class="main__map-content">
+        <h2>Map</h2>
+        <div class="main__map-map">
+          <img id="animal_map" src="../../assets/images/MAP-map.svg" alt="Map">
+          <div class="map__marker1 map__markers">
+            <svg data-eagle="prompt" width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path d="M47.0345 0.496094C28.8014 0.496094 13.9683 15.331 13.9683 33.5663C13.9683 51.2064 44.1986 91.3966 45.4864 93.1007C45.8482 93.5871 46.4278 93.871 47.0347 93.871C47.6416 93.871 48.2213 93.5871 48.5831 93.1007C49.8706 91.3966 80.1012 51.2065 80.1012 33.5663C80.1008 15.331 65.2676 0.496094 47.0345 0.496094ZM47.0345 51.0741C37.3831 51.0741 29.5288 43.219 29.5288 33.5663C29.5288 23.9137 37.3831 16.0585 47.0345 16.0585C56.686 16.0585 64.5402 23.9137 64.5402 33.5663C64.5402 43.219 56.686 51.0741 47.0345 51.0741Z" fill="url(#paint0_linear)"/>
+              <circle cx="46.5" cy="34.5" r="21.5"/>
+              </g>
+              <defs>
+              <linearGradient id="paint0_linear" x1="1.62001" y1="0.496093" x2="96.3795" y2="20.869" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5"/>
+              <stop offset="1" stop-color="#49D6DF"/>
+              </linearGradient>
+              <clipPath id="clip0">
+              <rect width="93.3638" height="93.375" fill="white" transform="translate(0.352539 0.496094)"/>
+              </clipPath>
+              </defs>
+            </svg>
+            <div class="icon_eagle">
+              <img src="../../assets/images/MAP-circuleEAGLE.png" alt="Eagle">
+            </div>
+            <div class="eagle_pop-up map_pop-up">
+              <img src="../../assets/images/MAP-popup-EAGLE.png" alt="Eagle on map" width="60" height="60">
+              <div class="map_pop-up-text">
+                <h6>West End Bald Eagle</h6>
+                <p data-text="on an island near Los Angeles">Region: </p>
+                <p data-text="more than 270 pairs in 2013">Population: </p>
+              </div>
+            </div>
+          </div>
+          <div class="map__marker2 map__markers">
+            <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path d="M47.0345 0.496094C28.8014 0.496094 13.9683 15.331 13.9683 33.5663C13.9683 51.2064 44.1986 91.3966 45.4864 93.1007C45.8482 93.5871 46.4278 93.871 47.0347 93.871C47.6416 93.871 48.2213 93.5871 48.5831 93.1007C49.8706 91.3966 80.1012 51.2065 80.1012 33.5663C80.1008 15.331 65.2676 0.496094 47.0345 0.496094ZM47.0345 51.0741C37.3831 51.0741 29.5288 43.219 29.5288 33.5663C29.5288 23.9137 37.3831 16.0585 47.0345 16.0585C56.686 16.0585 64.5402 23.9137 64.5402 33.5663C64.5402 43.219 56.686 51.0741 47.0345 51.0741Z" fill="url(#paint0_linear)"/>
+              <circle cx="46.5" cy="34.5" r="21.5"/>
+              </g>
+              <defs>
+              <linearGradient id="paint0_linear" x1="1.62001" y1="0.496093" x2="96.3795" y2="20.869" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5"/>
+              <stop offset="1" stop-color="#49D6DF"/>
+              </linearGradient>
+              <clipPath id="clip0">
+              <rect width="93.3638" height="93.375" fill="white" transform="translate(0.352539 0.496094)"/>
+              </clipPath>
+              </defs>
+            </svg>
+            <div class="icon_croc">
+              <img src="../../assets/images/MAP-circuleCROC.png" alt="Crocodile">
+            </div>
+            <div class="croc_pop-up map_pop-up">
+              <img src="../../assets/images/MAP-popup-CROC.png" alt="Crocodile on map" width="60" height="60">
+              <div class="map_pop-up-text">
+                <h6>Crocodile</h6>
+                <p data-text="on an island near Los Angeles">Region: </p>
+                <p data-text="more than 270 pairs in 2013">Population: </p>
+              </div>
+            </div>
+          </div>
+          <div class="map__marker3 map__markers">
+            <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path d="M47.0345 0.496094C28.8014 0.496094 13.9683 15.331 13.9683 33.5663C13.9683 51.2064 44.1986 91.3966 45.4864 93.1007C45.8482 93.5871 46.4278 93.871 47.0347 93.871C47.6416 93.871 48.2213 93.5871 48.5831 93.1007C49.8706 91.3966 80.1012 51.2065 80.1012 33.5663C80.1008 15.331 65.2676 0.496094 47.0345 0.496094ZM47.0345 51.0741C37.3831 51.0741 29.5288 43.219 29.5288 33.5663C29.5288 23.9137 37.3831 16.0585 47.0345 16.0585C56.686 16.0585 64.5402 23.9137 64.5402 33.5663C64.5402 43.219 56.686 51.0741 47.0345 51.0741Z" fill="url(#paint0_linear)"/>
+              <circle cx="46.5" cy="34.5" r="21.5"/>
+              </g>
+              <defs>
+              <linearGradient id="paint0_linear" x1="1.62001" y1="0.496093" x2="96.3795" y2="20.869" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5"/>
+              <stop offset="1" stop-color="#49D6DF"/>
+              </linearGradient>
+              <clipPath id="clip0">
+              <rect width="93.3638" height="93.375" fill="white" transform="translate(0.352539 0.496094)"/>
+              </clipPath>
+              </defs>
+            </svg>
+            <div class="icon_gorilla">
+              <img src="../../assets/images/MAP-circuleGORILLA.png" alt="Gorilla">
+            </div>
+            <div class="gorrilla_pop-up map_pop-up">
+              <img src="../../assets/images/MAP-popup-GORILLA.png" alt="Gorilla on map" width="60" height="60">
+              <div class="map_pop-up-text">
+                <h6>Gorrilla</h6>
+                <p data-text="on an island near Los Angeles">Region: </p>
+                <p data-text="more than 270 pairs in 2013">Population: </p>
+              </div>
+            </div>
+          </div>
+          <div class="map__marker4 map__markers">
+            <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path d="M47.0345 0.496094C28.8014 0.496094 13.9683 15.331 13.9683 33.5663C13.9683 51.2064 44.1986 91.3966 45.4864 93.1007C45.8482 93.5871 46.4278 93.871 47.0347 93.871C47.6416 93.871 48.2213 93.5871 48.5831 93.1007C49.8706 91.3966 80.1012 51.2065 80.1012 33.5663C80.1008 15.331 65.2676 0.496094 47.0345 0.496094ZM47.0345 51.0741C37.3831 51.0741 29.5288 43.219 29.5288 33.5663C29.5288 23.9137 37.3831 16.0585 47.0345 16.0585C56.686 16.0585 64.5402 23.9137 64.5402 33.5663C64.5402 43.219 56.686 51.0741 47.0345 51.0741Z" fill="url(#paint0_linear)"/>
+              <circle cx="46.5" cy="34.5" r="21.5"/>
+              </g>
+              <defs>
+              <linearGradient id="paint0_linear" x1="1.62001" y1="0.496093" x2="96.3795" y2="20.869" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#4BD8B5"/>
+              <stop offset="1" stop-color="#49D6DF"/>
+              </linearGradient>
+              <clipPath id="clip0">
+              <rect width="93.3638" height="93.375" fill="white" transform="translate(0.352539 0.496094)"/>
+              </clipPath>
+              </defs>
+            </svg>
+            <div class="icon_panda">
+              <img src="../../assets/images/MAP-circulePANDA.png" alt="Panda">
+            </div>
+            <div class="panda_pop-up map_pop-up">
+              <img src="../../assets/images/MAP-popup-PANDA.png" alt="Panda on map" width="60" height="60">
+              <div class="map_pop-up-text">
+                <h6>Panda</h6>
+                <p data-text="on an island near Los Angeles">Region: </p>
+                <p data-text="more than 270 pairs in 2013">Population: </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="../../pages/map/map.html" target="_blank">
+          <button class="button"><img src="../../assets/icons/watch-online.svg" alt="whatch online"><span>watch online</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="wrapper">
+      <div class="footer__content">
+        <div class="footer__block-first">
+          <div class="first-column">
+            <a href="##"><img title="Online Zoo, Yem Digital, Rolling Scopes School" src="../../assets/images/logo-zoo-light.svg"
+              alt="online zoo logo"></a>
+              <h5>Contact us</h5>
+              <form action="#">
+                <input type="text" placeholder="Name" class="input_name footer_input" required>
+                <input type="email" placeholder="Email" class="input_email footer_input" required>
+                <fieldset>
+                  <legend>Please enter your message</legend>
+                    <textarea maxlength="280" class="footer_textarea" required></textarea>
+                </fieldset>
+                <div class="checkbox">
+                  <input type="checkbox" class="footer_checkbox" required>
+                  <label class="checkbox_label">I agree to the processing of Personal Data</label>
+                </div>
+                <button class="button_send" type="submit"><p>SEND</p><img src="../../assets/images/FOOTER-arrow.svg" alt="send"></button>
+              </form>
+          </div>
+          <div class="second-column">
+            <nav class="footer__nav">
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="../../pages/zoos/panda/panda.html">Zoos</a></li>
+                <li><a href="../../pages/map/map.html">Map</a></li>
+                <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp?node-id=0%3A1">Design</a></li>
+              </ul>
+            </nav>
+            <h6>ZOO Online Centre</h6>
+            <p>132, Address District, Street</p>
+            <p>Open Daily 10:00 am - 5:00 pm</p>
+            <p><a href="tel:7021633433">T(702) 163-3433</a></p>
+            <p><a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a></p>
+            <div class="footer__socials">
+              <ul>
+                <li><a href="https://instagram.com" class="inst"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.75 0H6.25C2.79875 0 0 2.79875 0 6.25V13.75C0 17.2013 2.79875 20 6.25 20H13.75C17.2013 20 20 17.2013 20 13.75V6.25C20 2.79875 17.2013 0 13.75 0ZM18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125H6.25C3.8375 18.125 1.875 16.1625 1.875 13.75V6.25C1.875 3.8375 3.8375 1.875 6.25 1.875H13.75C16.1625 1.875 18.125 3.8375 18.125 6.25V13.75Z" fill="#FEFEFE"/>
+                  <path d="M10 5C7.23875 5 5 7.23875 5 10C5 12.7613 7.23875 15 10 15C12.7613 15 15 12.7613 15 10C15 7.23875 12.7613 5 10 5ZM10 13.125C8.2775 13.125 6.875 11.7225 6.875 10C6.875 8.27625 8.2775 6.875 10 6.875C11.7225 6.875 13.125 8.27625 13.125 10C13.125 11.7225 11.7225 13.125 10 13.125Z" fill="#FEFEFE"/>
+                  <path d="M15.3752 5.29148C15.7432 5.29148 16.0415 4.99319 16.0415 4.62523C16.0415 4.25727 15.7432 3.95898 15.3752 3.95898C15.0073 3.95898 14.709 4.25727 14.709 4.62523C14.709 4.99319 15.0073 5.29148 15.3752 5.29148Z" fill="#FEFEFE"/>
+                  </svg>
+                  </a>
+                </li>
+                <li><a href="https://twitter.com" class="inst"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 1.92375C19.2563 2.25 18.4637 2.46625 17.6375 2.57125C18.4875 2.06375 19.1363 1.26625 19.4412 0.305C18.6488 0.7775 17.7738 1.11125 16.8412 1.2975C16.0887 0.49625 15.0162 0 13.8462 0C11.5763 0 9.74875 1.8425 9.74875 4.10125C9.74875 4.42625 9.77625 4.73875 9.84375 5.03625C6.435 4.87 3.41875 3.23625 1.3925 0.7475C1.03875 1.36125 0.83125 2.06375 0.83125 2.82C0.83125 4.24 1.5625 5.49875 2.6525 6.2275C1.99375 6.215 1.3475 6.02375 0.8 5.7225C0.8 5.735 0.8 5.75125 0.8 5.7675C0.8 7.76 2.22125 9.415 4.085 9.79625C3.75125 9.8875 3.3875 9.93125 3.01 9.93125C2.7475 9.93125 2.4825 9.91625 2.23375 9.86125C2.765 11.485 4.2725 12.6788 6.065 12.7175C4.67 13.8088 2.89875 14.4662 0.98125 14.4662C0.645 14.4662 0.3225 14.4513 0 14.41C1.81625 15.5813 3.96875 16.25 6.29 16.25C13.835 16.25 17.96 10 17.96 4.5825C17.96 4.40125 17.9538 4.22625 17.945 4.0525C18.7588 3.475 19.4425 2.75375 20 1.92375Z" fill="#FEFEFE"/>
+                  </svg></a>
+                </li>
+                <li><a href="https://youtube.com" class="inst"><svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.15 1.575C18.6075 0.61 18.0188 0.4325 16.82 0.365C15.6225 0.28375 12.6112 0.25 10.0025 0.25C7.38875 0.25 4.37625 0.28375 3.18 0.36375C1.98375 0.4325 1.39375 0.60875 0.84625 1.575C0.2875 2.53875 0 4.19875 0 7.12125C0 7.12375 0 7.125 0 7.125C0 7.1275 0 7.12875 0 7.12875V7.13125C0 10.0413 0.2875 11.7137 0.84625 12.6675C1.39375 13.6325 1.9825 13.8075 3.17875 13.8888C4.37625 13.9588 7.38875 14 10.0025 14C12.6112 14 15.6225 13.9587 16.8212 13.89C18.02 13.8087 18.6087 13.6338 19.1513 12.6688C19.715 11.715 20 10.0425 20 7.1325C20 7.1325 20 7.12875 20 7.12625C20 7.12625 20 7.12375 20 7.1225C20 4.19875 19.715 2.53875 19.15 1.575ZM7.5 10.875V3.375L13.75 7.125L7.5 10.875Z" fill="#FEFEFE"/>
+                  </svg>
+                  </a>
+                </li>
+                <li><a href="https://vk.com" class="inst"><svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19.8217 10.1784C19.768 10.0883 19.4355 9.36579 17.8353 7.88068C16.1602 6.32557 16.3852 6.57809 18.4029 3.88914C19.6317 2.25152 20.123 1.25145 19.9692 0.823916C19.823 0.416387 18.9192 0.523894 18.9192 0.523894L15.9139 0.541396C15.9139 0.541396 15.6914 0.511393 15.5252 0.610151C15.3639 0.707658 15.2601 0.932674 15.2601 0.932674C15.2601 0.932674 14.7839 2.20027 14.1488 3.27785C12.81 5.55176 12.2737 5.67177 12.0549 5.53051C11.5461 5.20174 11.6736 4.20792 11.6736 3.50286C11.6736 1.29895 12.0074 0.380134 11.0223 0.142616C10.6948 0.0638606 10.4548 0.0113567 9.61848 0.00260608C8.54591 -0.00864474 7.63709 0.00635635 7.1233 0.257625C6.78078 0.425137 6.51701 0.798915 6.67827 0.820166C6.87703 0.846418 7.32707 0.941425 7.56583 1.26645C7.87461 1.68523 7.86336 2.6278 7.86336 2.6278C7.86336 2.6278 8.04087 5.22174 7.44958 5.54426C7.0433 5.76553 6.487 5.31425 5.29317 3.25034C4.68187 2.19402 4.21934 1.02518 4.21934 1.02518C4.21934 1.02518 4.13058 0.807665 3.97182 0.691407C3.77931 0.550146 3.50929 0.505143 3.50929 0.505143L0.651577 0.522644C0.651577 0.522644 0.222795 0.535146 0.0652839 0.721409C-0.0747264 0.887671 0.054033 1.2302 0.054033 1.2302C0.054033 1.2302 2.2917 6.46433 4.82438 9.10327C7.1483 11.5222 9.786 11.3634 9.786 11.3634H10.9811C10.9811 11.3634 11.3424 11.3234 11.5261 11.1247C11.6961 10.9422 11.6899 10.5996 11.6899 10.5996C11.6899 10.5996 11.6661 8.99577 12.4112 8.7595C13.145 8.52698 14.0876 10.3096 15.0864 10.9959C15.8414 11.5147 16.4152 11.4009 16.4152 11.4009L19.0867 11.3634C19.0867 11.3634 20.4843 11.2772 19.8217 10.1784Z" fill="#FEFEFE"/>
+                  </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form class="footer_button" action="#" target="_blank">
+            <button class="button"><span>donate for volunteers</span></button>
+          </form>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer__block-second">
+          <p title="Online Zoo, Yem Digital, Rolling Scopes School">©Noora Sagnayeva</p>
+          <p title="Online Zoo, Yem Digital, Rolling Scopes School">©RSSchool and ©Yem Digital - 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
