@@ -1,4 +1,4 @@
-### my-projects
+## my-projects
 
 #beauty
 https://redh3ad.github.io/my-projects/beauty/
