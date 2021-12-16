@@ -1,19 +1,19 @@
 ## my-projects
 
 #beauty
-https://redh3ad.github.io/my-projects/beauty/
+https://redh3ad.github.io/beauty/
 
 #burning-man
-https://redh3ad.github.io/my-projects/burnung-man/
+https://redh3ad.github.io/burnung-man/
 
 #online-zoo
-https://redh3ad.github.io/my-projects/online-zoo/pages/landing/
+https://redh3ad.github.io/online-zoo/pages/landing/
 
 #virtual-piano
-https://redh3ad.github.io/my-projects/virtual-piano/
+https://redh3ad.github.io/virtual-piano/
 
 #wildlife
-https://redh3ad.github.io/my-projects/wildlife/
+https://redh3ad.github.io/wildlife/
 
 #your-life-is-webdev
-https://redh3ad.github.io/my-projects/webdev/
+https://redh3ad.github.io/webdev/
