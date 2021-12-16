@@ -23,7 +23,7 @@ ul, li{
     margin: 0 auto;
 }
 .header{
-    background: url('../img/bg-image.png') no-repeat center top / cover;
+    background: url('./IMG/bg-image.png') no-repeat center top / cover;
 }
 header a{
     color: #fff;
@@ -282,7 +282,7 @@ header a{
 }
 /*-----------BLOCK5-----------*/
 .block5{
-    background: url('../img/pexels-christina-morillo-1181675%201.png') no-repeat center top / cover;
+    background: url('./IMG/pexels-christina-morillo-1181675%201.png') no-repeat center top / cover;
 }
 .block5 .block5__body{
     display: block;
