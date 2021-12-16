@@ -16,4 +16,4 @@ https://redh3ad.github.io/virtual-piano/
 https://redh3ad.github.io/wildlife/
 
 #your-life-is-webdev
-https://redh3ad.github.io/webdev/
+https://redh3ad.github.io/your-life-is-webdev/
