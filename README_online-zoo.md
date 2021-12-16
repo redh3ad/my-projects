@@ -1,1 +1,0 @@
-# ONLINE-ZOO project
