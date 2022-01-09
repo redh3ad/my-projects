@@ -1,22 +1,35 @@
+### Egor Matyas
+
 ## my-projects
 
-#beauty
-https://redh3ad.github.io/beauty/
+# weather-react-app
+Technologies: react, responsive and adaptive layout
+link: https://vigilant-bose-1b8330.netlify.app/
 
-#burning-man
-https://redh3ad.github.io/burnung-man/
+# portfolio task
+Technologies: html, css, JS, responsive and adaptive layout
+link: https://redh3ad.github.io/portfolio/
 
-#online-zoo
-https://redh3ad.github.io/online-zoo/pages/landing/landing.html
+# burning-man
+Technologies: html, css, responsive and adaptive layout
+link: https://redh3ad.github.io/burnung-man/
 
-#virtual-piano
-https://redh3ad.github.io/virtual-piano/
+# virtual-piano
+Technologies: html, css, JS, responsive and adaptive layout
+link: https://redh3ad.github.io/virtual-piano/
 
-#wildlife
-https://redh3ad.github.io/wildlife/
+# online-zoo
+Technologies: html, css, adaptive layout
+link: https://redh3ad.github.io/online-zoo/pages/landing/landing.html
 
-#your-life-is-webdev
-https://redh3ad.github.io/your-life-is-webdev/
+# wildlife
+Technologies: html, css
+link: https://redh3ad.github.io/wildlife/
 
-#portfolio task
-https://redh3ad.github.io/portfolio/
+# beauty
+Technologies: html, css
+link: https://redh3ad.github.io/beauty/
+
+# your-life-is-webdev
+Technologies: html, css
+link: https://redh3ad.github.io/your-life-is-webdev/
