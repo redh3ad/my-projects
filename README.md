@@ -1,35 +1,35 @@
-### Egor Matyas
+# Egor Matyas
 
 ## my-projects
 
-# weather-react-app
+### weather-react-app
 Technologies: react, responsive and adaptive layout
 link: https://vigilant-bose-1b8330.netlify.app/
 
-# portfolio task
+### portfolio task
 Technologies: html, css, JS, responsive and adaptive layout
 link: https://redh3ad.github.io/portfolio/
 
-# burning-man
+### burning-man
 Technologies: html, css, responsive and adaptive layout
 link: https://redh3ad.github.io/burnung-man/
 
-# virtual-piano
+### virtual-piano
 Technologies: html, css, JS, responsive and adaptive layout
 link: https://redh3ad.github.io/virtual-piano/
 
-# online-zoo
+### online-zoo
 Technologies: html, css, adaptive layout
 link: https://redh3ad.github.io/online-zoo/pages/landing/landing.html
 
-# wildlife
+### wildlife
 Technologies: html, css
 link: https://redh3ad.github.io/wildlife/
 
-# beauty
+### beauty
 Technologies: html, css
 link: https://redh3ad.github.io/beauty/
 
-# your-life-is-webdev
+### your-life-is-webdev
 Technologies: html, css
 link: https://redh3ad.github.io/your-life-is-webdev/
