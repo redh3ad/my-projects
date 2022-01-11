@@ -35,7 +35,7 @@
 * Technologies: 
   * `html`
   * `css`
-  * `responsive and adaptive layout`
+  * `adaptive layout`
 * link: https://redh3ad.github.io/online-zoo/pages/landing/landing.html
 
 ### wildlife
