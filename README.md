@@ -2,11 +2,21 @@
 
 ## My Training Projects
 
-### weather-react-app
+### movie-app
 * Technologies: 
-  * `react`
+  * `html`
+  * `css/scss`
+  * `JS`
   * `responsive and adaptive layout`
-* link: https://vigilant-bose-1b8330.netlify.app/
+* link: https://rolling-scopes-school.github.io/redh3ad-JSFEPRESCHOOL/movie-app/
+
+### custom-video-player
+* Technologies: 
+  * `html`
+  * `css/scss`
+  * `JS`
+  * `responsive and adaptive layout`
+* link: https://rolling-scopes-school.github.io/redh3ad-JSFEPRESCHOOL/custom-video/
 
 ### portfolio task
 * Technologies: 
@@ -15,6 +25,19 @@
   * `JS`
   * `responsive and adaptive layout`
 * link: https://redh3ad.github.io/portfolio/
+
+### weather-react-app
+* Technologies: 
+  * `react`
+  * `responsive and adaptive layout`
+* link: https://vigilant-bose-1b8330.netlify.app/
+
+### react-todo-app
+* Technologies: 
+  * `react`
+  * `react hook`
+  * `responsive and adaptive layout`
+* link: https://infallible-mcclintock-63d62d.netlify.app/
 
 ### burning-man
 * Technologies: 
