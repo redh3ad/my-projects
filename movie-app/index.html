@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Movie App</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/movie-app.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/683ca3fd92.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Movie App</h1>
+        <div class="header__content">
+          <form class="header__form">
+            <input
+              type="text"
+              class="form__input-search"
+              placeholder="Search"
+              autofocus
+              autocomplete="off"
+            />
+          </form>
+          <div class="cross"><i class="fas fa-times"></i></div>
+        </div>
+      </header>
+      <main class="main">
+        <i class="far fa-arrow-alt-circle-up"></i>
+        <i class="far fa-arrow-alt-circle-down"></i>
+        <div class="pagination">
+          <i class="far fa-caret-square-left far1"></i>
+          <span class="page__number">1</span>
+          <i class="far fa-caret-square-right far1"></i>
+        </div>
+        <div class="main__container"></div>
+      </main>
+      <footer class="footer">
+        <a href="https://github.com/redh3ad" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <time>2021</time>
+        <a href="https://rs.school/js/">
+          <img src="./assets/img/rss.png" alt="rs-logo" />
+        </a>
+      </footer>
+    </div>
+  </body>
+  <script src="./script/index.js"></script>
+</html>
