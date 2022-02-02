@@ -226,7 +226,7 @@ h4 {
 }
 
 .header__hero .themes-switcher {
-  position: absolute;
+  position: fixed;
   width: 32px;
   height: 32px;
   border-radius: 50%;
