@@ -1,0 +1,23 @@
+$header-bg: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+$font-color: #fff;
+
+.header__container {
+  background: $header-bg;
+  padding: 20px;
+  color: $font-color;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 31px;
+    height: 26px;
+    cursor: pointer;
+    margin-right: 7px;
+  }
+
+  h1 {
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+  }
+}
