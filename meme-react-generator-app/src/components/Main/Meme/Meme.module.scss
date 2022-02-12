@@ -1,0 +1,38 @@
+.meme__container {
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .meme__img {
+    max-width: 477px;
+    width: 100%;
+  }
+
+  span {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: -0 -3px 0 #000000, 0 -3px 0 #000000, -0 3px 0 #000000,
+      0 3px 0 #000000, -3px -0 0 #000000, 3px -0 0 #000000, -3px 0 0 #000000,
+      3px 0 0 #000000, -1px -3px 0 #000000, 1px -3px 0 #000000,
+      -1px 3px 0 #000000, 1px 3px 0 #000000, -3px -1px 0 #000000,
+      3px -1px 0 #000000, -3px 1px 0 #000000, 3px 1px 0 #000000,
+      -2px -3px 0 #000000, 2px -3px 0 #000000, -2px 3px 0 #000000,
+      2px 3px 0 #000000, -3px -2px 0 #000000, 3px -2px 0 #000000,
+      -3px 2px 0 #000000, 3px 2px 0 #000000, -3px -3px 0 #000000,
+      3px -3px 0 #000000, -3px 3px 0 #000000, 3px 3px 0 #000000,
+      -3px -3px 0 #000000, 3px -3px 0 #000000, -3px 3px 0 #000000,
+      3px 3px 0 #000000;
+
+    &.meme__top {
+      top: 16px;
+    }
+
+    &.meme__bottom {
+      bottom: 16px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+
+  .form__input__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+}
+
+$input-border-color: #d5d4d8;
+$input-font-color: #0d0d0d;
+$input-font: 'Karla', sans-serif;
+
+.form__input {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid $input-border-color;
+  color: $input-font-color;
+  padding: 10px;
+  font-family: $input-font;
+
+  & + .form__input {
+    margin-left: 17px;
+  }
+}

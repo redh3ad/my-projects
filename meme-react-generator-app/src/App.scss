@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$body-bg: lightgray;
+body {
+  background-color: $body-bg;
+}
+
+$app-bg: #ffffff;
+$font-page: 'Karla', sans-serif;
+
+#root {
+  font-family: $font-page;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  .App {
+    max-width: 550px;
+    width: 100%;
+    height: 100%;
+    background-color: $app-bg;
+  }
+}
