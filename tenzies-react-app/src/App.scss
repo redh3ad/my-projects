@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+$root-font: 'Karla', sans-serif;
+$root-bg: #0b2434;
+#root {
+  font-family: $root-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $root-bg;
+}
+
+$App-bg: #f5f5f5;
+$App-font-color: #2b283a;
+$App-p-color: #4a4e74;
+$App-btn-bg: #5035ff;
+$App-btn-bg-hover: #3422a7;
+.App {
+  border: none;
+  border-radius: 6.5px;
+  width: 330px;
+  background-color: $App-bg;
+  padding: 30px;
+  color: $App-font-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .time {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid $App-btn-bg;
+    border-radius: 4px;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+    background-color: $App-btn-bg;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    h3 {
+      padding: 3px 8px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+
+  h1 {
+    font-size: 25.6px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+  }
+
+  p {
+    color: $App-p-color;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    text-align: center;
+    & + p {
+      margin-top: 8px;
+      margin-bottom: 25px;
+    }
+  }
+
+  button {
+    background-color: $App-btn-bg;
+    border: none;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+    padding: 8px 30px;
+    font-size: 16.384px;
+    line-height: 19px;
+    color: #fff;
+    font-family: $root-font;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+      background-color: $App-btn-bg-hover;
+    }
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+    }
+    &.btn__roll {
+      margin-bottom: 20px;
+    }
+  }
+
+  .die__container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+    margin-bottom: 29px;
+
+    .die {
+      min-width: 44px;
+      cursor: pointer;
+      background: #ffffff;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;
+      padding: 8px 15px;
+
+      h2 {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 24px;
+        text-align: center;
+        color: #2b283a;
+      }
+
+      &.active {
+        background: #59e391;
+      }
+    }
+  }
+}
