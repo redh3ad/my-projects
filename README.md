@@ -6,7 +6,16 @@
 * Technologies: 
   * `React`
   * `React Hooks`
+  * `SCSS`
 * link: https://tenzies-react-app.netlify.app/
+
+### meme-react-generator-app
+* Technologies: 
+  * `React`
+  * `React Hooks`
+  * `API`
+  * `SCSS`
+* link: https://meme-react-generator-app.netlify.app/
 
 ### movie-app
 * Technologies: 
