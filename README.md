@@ -2,6 +2,12 @@
 
 ## My Training Projects
 
+### tenzies-react-app
+* Technologies: 
+  * `React`
+  * `React Hooks`
+* link: https://tenzies-react-app.netlify.app/
+
 ### movie-app
 * Technologies: 
   * `html`
