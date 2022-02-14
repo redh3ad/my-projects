@@ -1,0 +1,27 @@
+@import '../../../fonts/fonts.scss';
+
+$font-color: #293264;
+
+.question {
+  font-family: $karla-font;
+  font-weight: $bold;
+  &:last-child {
+    margin-bottom: 20px;
+  }
+  //h3
+  .question__title {
+    font-size: 19px;
+    line-height: 22px;
+    color: $font-color;
+    margin-bottom: 12px;
+    max-width: 650px;
+  }
+  //answers
+  .question__answers {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 6px 16px;
+    border-bottom: 1px solid #dbdef0;
+    margin-bottom: 14px;
+  }
+}
