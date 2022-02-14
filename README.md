@@ -2,6 +2,15 @@
 
 ## My Training Projects
 
+### quizzical-react-app
+* Technologies: 
+  * `React`
+  * `React Hooks`
+  * `React Router`
+  * `API axios`
+  * `SCSS`
+* link: https://quizzical-app-react.netlify.app/
+
 ### tenzies-react-app
 * Technologies: 
   * `React`
