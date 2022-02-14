@@ -1,0 +1,74 @@
+@import '../../fonts/fonts.scss';
+
+$font-color: #293264;
+$button-bg: #4d5b9e;
+$button-font-color: #f5f7fb;
+
+.welcome__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $font-color;
+  //h1
+  .welcome__title {
+    font-family: $karla-font;
+    font-weight: $bold;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 7px;
+  }
+  //p
+  .welcome__description {
+    font-family: $inter-font;
+    font-weight: $regular;
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 360px;
+    text-align: center;
+    margin-bottom: 10px;
+    &.p_last {
+      margin-bottom: 18px;
+    }
+  }
+  //button
+  .welcome__btn {
+    background-color: $button-bg;
+    padding: 17px 59.5px;
+    font-family: $inter-font;
+    font-weight: $medium;
+    color: $button-font-color;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    transition: all 0.3s ease;
+    &:focus {
+      outline: none;
+    }
+    &:active {
+      box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+    }
+    &:hover {
+      background-color: #3b4781;
+      animation: 1.2s ease-in-out 0s normal none infinite running
+        trambling-animation;
+    }
+    @keyframes trambling-animation {
+      0%,
+      50%,
+      100% {
+        transform: rotate(0deg);
+      }
+      10%,
+      30% {
+        transform: rotate(-1deg);
+      }
+      20%,
+      40% {
+        transform: rotate(1deg);
+      }
+    }
+  }
+}

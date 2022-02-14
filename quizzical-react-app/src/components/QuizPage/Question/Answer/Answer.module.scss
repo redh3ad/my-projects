@@ -1,0 +1,41 @@
+@import '../../../../fonts/fonts.scss';
+
+$border-color: #4d5b9e;
+$font-color: #293264;
+$active-btn: #d6dbf5;
+$true-btn: #94d7a2;
+$false-btn: #f8bcbc;
+
+.answer {
+  font-family: $inter-font;
+  cursor: pointer;
+  border-radius: 7.94239px;
+  padding: 5px 8px;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: $medium;
+  background-color: transparent;
+  border: 2px solid #4d5b9e;
+  color: $font-color;
+  transition: all 0.2s ease;
+  margin-bottom: 10px;
+  margin-left: 13px;
+  &:hover {
+    transform: translateY(-3px);
+  }
+  &.active {
+    background-color: $active-btn;
+    border-color: $active-btn;
+  }
+  &.true {
+    background-color: $true-btn;
+    border-color: $true-btn;
+  }
+  &.notTrue {
+    opacity: 0.5;
+  }
+  &.false {
+    background-color: $false-btn;
+    border-color: $false-btn;
+  }
+}
